@@ -13,3 +13,15 @@ let greet3 = (name)=> {
   return `Hell0,${name}`
 }
 console.log(greet3('Java Script'));
+function getCurrentYear() {
+    return new Date().getFullYear();
+}
+
+// Calling the function and storing the result
+ let year = getCurrentYear();
+console.log("Current year is:", year);
+
+function add(name) {
+ return `Hello! ${name}`;
+}
+console.log(add('anil'));
